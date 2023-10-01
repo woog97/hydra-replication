@@ -12,13 +12,13 @@ To Do (Section 2):
 - [x] All latex equations and text
 - [x] All figures
 - [x] Insert codeblocks and pseudocode for all methods
-- [ ] Section 2.1: Print model config
+- [x] Section 2.1: Print model config
 - [x] Section 2.2: Load and munge Counterfact dataset
 - [ ] General equivalence classes to handle all Counterfact prompt formats
 - [x] Ordinary resampling ablation
 - [ ] Averaged resampling ablation
 - [x] $\text{do}(\ .)$
-- [ ] Multiple ablations
+- [ ] Multiple layer ablations
 - [x] Section 2.3: $u$ unembedding, $\hat{pi_t}$, $\Delta_{\text{unembed},l}$
 - [x] Section 2.4: $\Delta_{\text{ablate},l}$
 - [x] Section 2.5: Produce the plots in figure 2
@@ -34,6 +34,7 @@ To do (Sections 3 & 4):
 - [ ] Direct effect
 - [ ] Indirect effect
 - [ ] Generalized: $Y(x_{\leq t} \mid \text{do}(Z = z'))$
+  - Not really worth doing
 - [x] Determine whether "unrolled" RMS math in Section 3.1 applies to our LayerNormPre (it should, if we center first?)
 - [ ] Section 4: Compensatory effect
 - [ ] Generate CE/DE dataset
