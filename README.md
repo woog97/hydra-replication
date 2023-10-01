@@ -23,15 +23,18 @@ To Do (Section 2):
 - [x] Section 2.4: $\Delta_{\text{ablate},l}$
 - [x] Section 2.5: Produce the plots in figure 2
 - [x] Implement $\tilde{\Delta}_{\text{unembed},l}^k$
-- [ ] Produce plots in figure 1, 3
-- [ ] Derive same or different conclusions across model suite
+- [x] Produce plots in figure 1, 3
+- [x] Derive same or different conclusions across model suite
+  - Pythia models are too weak for the given task of "What is the twin city of {}? It is"
+  - [ ] Try a different recall task
+  - [ ] Try few k-shot prompt to encourage the model to play nice
 
 To do (Sections 3 & 4):
 - [ ] Total effect
 - [ ] Direct effect
 - [ ] Indirect effect
 - [ ] Generalized: $Y(x_{\leq t} \mid \text{do}(Z = z'))$
-- [ ] Determine whether "unrolled" RMS math in Section 3.1 applies to our LayerNormPre (it should, if we center first?)
+- [x] Determine whether "unrolled" RMS math in Section 3.1 applies to our LayerNormPre (it should, if we center first?)
 - [ ] Section 4: Compensatory effect
 - [ ] Generate CE/DE dataset
 - [ ] Produce plots in figure 7, 8
